@@ -1,0 +1,54 @@
+:root {
+  --bg-color: #fff;
+  --first-color: #005C45;
+  --secondary-color: #CEDBDD;
+
+}
+
+*{
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  
+}
+
+h1 {
+  color: var(--first-color);
+  font-size: 20px;
+}
+
+h2{
+  font-size: 15px;
+}
+
+button {
+  background-color: var(--first-color);
+  border: none;
+  padding: 5px;
+  color: var(--bg-color);
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: var(--secondary-color);
+}
+
+.App {
+  width: 300px;
+  margin: 50px auto;
+  padding: 10px;
+  border: 1px solid var(--first-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.task-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+  border: 1px solid var(--secondary-color);
+}
+
